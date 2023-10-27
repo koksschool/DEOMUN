@@ -53,6 +53,25 @@ body {
     display: none;
 }
 
+#lastCard {
+    height: 320px;
+}
+
+#ig {
+    height: 200px;
+    align-self: center;
+    vertical-align: middle;
+    position: relative;
+    top: 20px;
+
+} #igCard {
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    bottom: 114px;
+    height: 316.67px;
+
+}
 
 
 /*Navbar*/
@@ -213,6 +232,20 @@ footer {
         width: 100%;
     }
 
+    #start {
+        height: 1000px;
+    }
     
-    
+    #explore {
+        top: 100px;
+        position: relative;
+    }
+
+    #igCard {
+        bottom: 0px;
+    }
+
+    #lastCard {
+        height: auto;
+    }
 }
