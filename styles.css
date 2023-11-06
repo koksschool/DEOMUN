@@ -192,9 +192,29 @@ footer {
 }
 
 
+#pdfCont {
+    background-color: lightskyblue;
+    opacity: 0.9;
 
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 
+    text-align: center;
 
+} .pdflink {
+    text-decoration: none;
+    color: black;
+    width: 230px;
+    display: inline-block;
+    margin: 30px;
+
+} .pdflink img {
+    width: 230px;
+    height: 370px;
+    align-self: center;
+}
 
 
 @media (max-width: 600px) {
